@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class Excel {
     // Dependencies: POI | HSSF Workbook/Sheet/Row/Cell
-    // This method will read and return Excel data into a double array
+// This method will read and return Excel data into a double array
     public static String[][] get(String filename) {
         String[][] dataTable = null;
         File file = new File(filename);
